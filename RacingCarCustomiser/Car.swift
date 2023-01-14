@@ -13,6 +13,7 @@ struct Car {
     var topSpeed: Int
     var acceleration: Double
     var handling: Int
+    var nitroBoost: Bool
     
     func displayCarStats() -> String {
         return """
@@ -21,6 +22,7 @@ struct Car {
             Top Speed: \(topSpeed)mph
             Acceleration (0-60): \(acceleration)s
             Handling: \(handling)
+            Nitro Boost: \(nitroBoost)
             """
     }
 }
